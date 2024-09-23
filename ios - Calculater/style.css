@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 28, 28);
+    height: 87vh;
+    width: 27vw;
+}
+.container {
+    margin-left: 2vw;
+    padding-bottom: 2vh;
+}
+.main h1 {
+    padding-left: 13vw;
+    color: white;
+    font-size: 100px;
+    margin-bottom: 0vh;
+    font-family:'San Francisco', Helvetica, Arial, san-serif;
+}
+.element {
+    border-radius:30vw;
+    font-size: 30px;
+    color: white;
+    height: 10vh;
+    width: 4.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(4, 6vw);
+    grid-template-rows: repeat(4, 6vw);
+}
+.content :nth-child(4) {
+    div {
+        background-color: rgb(255, 149, 1);
+    }
+}
+.content :nth-child(8) {
+    div {
+        background-color: rgb(255, 149, 1);
+    }
+}
+.content :nth-child(12) {
+    div {
+        background-color: rgb(255, 149, 1);
+    }
+}
+.content :nth-child(16) {
+    div {
+        background-color: rgb(255, 149, 1);
+    }
+}
+.content :nth-child(20) {
+    div {
+        background-color: rgb(255, 149, 1);
+    }
+}

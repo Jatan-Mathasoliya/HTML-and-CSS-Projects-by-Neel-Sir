@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-repeat: no-repeat;
+    background-image: url(cricpro-bg.png);
+    background-size: 100vw 120vh;
+}
+.scoreboard {
+    padding-top: 90px;
+    position: absolute;
+    width: 900px;
+}
+.logo {
+    padding-left: 75%;
+}
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+.heading :nth-child(1) {
+    font-size: 50px;
+}
+.heading :nth-child(2) {
+    font-size: 25px;
+    color: rgb(109, 109, 109);
+    padding-left: 0px;
+}
+
+.india_innings {
+    background-color: rgb(240, 80, 54);
+    color: white;
+}
+.top_score {
+    background-color: rgb(240, 80, 54);
+     color: white;
+}
+table {
+    width: 100%;
+    background-color: white;
+    margin-left: 5%;
+}
+
+table,th,td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr, :nth-child(2) {
+    padding: 0px 46px;
+}
+
+
+
+
+
